@@ -1,0 +1,381 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+body
+{
+    background-image: linear-gradient(to right, #a7dbf0, #55e2b3, #3835c0, #00158b);;
+    background-position: repeat;
+    background-size: cover;
+    font-family: sans-serif;
+    margin-top: -6px;
+}
+
+p
+{
+    font-size: 15px;
+    position: relative;
+    left: 40px;
+    top: -10px;
+    padding: 10px;
+}
+
+#logo_ally
+{
+    height:60.5px;
+    width: 220px;
+    -webkit-transition: all .300s;
+    -moz-transition: all .300s;
+    -o-transition: all .300s;
+    transition: all .300s;
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+
+.cadastrocursos
+{
+    width: 800px;
+    background-color: rgb(221, 221, 221);
+    margin: auto;
+    color: rgb(46, 46, 46);
+    font-style: inherit;
+    padding: 10px 0px 10px 0px;
+    text-align: center;
+    border-radius: 15px 15px 0px 0px;
+    /*box-shadow: inset 0 0 1em rgb(67, 78, 99), 0 0 1em rgb(99, 7, 153); */
+    font-size: 13px;
+    box-shadow: 2px 5px 5px 2px rgb(147, 150, 153) ;
+    font-family: 'Archivo', sans-serif;   
+}
+
+.conteudo
+{
+    background-color: rgba(184, 185, 185, 0.6);
+    width: 800px;
+    height: 900px;
+    margin: auto;
+    border-radius: 13px;
+    position: relative;
+    top: -6px;
+    box-shadow: 2px 5px 5px 2px rgb(137, 137, 138);
+}
+
+form{
+    padding: 2px;
+}
+
+#nome
+{
+    width: 100px;
+    height: 100px;
+}
+
+.nome
+{
+    margin-left: 70px;
+    margin-top: 19px;
+    margin-bottom: -8px;
+    padding: -10px;
+    width: 125px;
+    color: rgb(0, 1, 66); 
+    font-size: 18px;
+    font-weight: 700;
+    position: relative;
+    top: 3px;
+    font-family: 'Archivo', sans-serif;
+}
+
+#nomecurso
+{
+    position: relative;
+    top: 20px;
+}
+
+.nome1
+{
+    position: relative;
+    left: 200px;
+    top: 7px;
+    line-height: 35px;
+    border-radius: 10px;
+    padding: 0 151px;
+    font-size: 16px;
+    color: rgb(0, 1, 32);
+    float:left;
+    border: rgb(165, 164, 164) solid 3px;
+}
+
+.primeirolabel
+{
+    position: relative;
+    color: #3d3d3de5;
+    text-transform: capitalize;
+    font-size: 14px;
+    left: 205px;
+    top: 5px;
+    font-family: 'Archivo', sans-serif;
+}
+
+#data
+{
+    width: 100px;
+    height: 100px;
+}
+
+.datainicio
+{
+    position: relative;
+    left: 200px;
+    top: -15px;
+    line-height: 35px;
+    border-radius: 10px;
+    padding: 0 22px;
+    font-size: 16px;
+    color: #555;
+    font-family: 'Archivo', sans-serif;
+    border: rgb(165, 164, 164) solid 3px;
+}
+
+.datatermino
+{
+    position: relative;
+    left: 460px;
+    top: -74px;
+    line-height: 35px;
+    border-radius: 10px;
+    padding: 0 22px;
+    font-size: 16px;
+    color: #555;
+    font-family: 'Archivo', sans-serif;
+    border: rgb(165, 164, 164) solid 3px;
+}
+
+.iniciolabel
+{
+    position: relative;
+    color: #000000e5;
+    text-transform: capitalize;
+    font-size: 14px;
+    left: 206px;
+    top: -14px;
+    font-weight: bold;
+    font-family: 'Archivo', sans-serif;
+}
+
+.terminolabel
+{
+    position: relative;
+    color: #000000e5;
+    text-transform: capitalize;
+    font-size: 14px;
+    left: 468px;
+    top: -70px;
+    font-weight: bold;
+    font-family: 'Archivo', sans-serif;
+}
+
+.duracao
+{
+    position: relative;
+    right: -200px;
+    top: -31px;
+    line-height: 35px;
+    width: 450px;
+    border-radius: 10px;
+    padding: 0 22px;
+    font-size: 16px;
+    color: #555;
+    border: rgb(165, 164, 164) solid 3px;
+}
+
+.descricao
+{
+    position: relative;
+    right: -200px;
+    top: -10px;
+    line-height: 50px;
+    width: 450px;
+    border-radius: 10px;
+    padding: 0 22px;
+    font-size: 16px;
+    color: #555;
+    border: rgb(165, 164, 164) solid 3px;
+}
+
+#cadastroCurso
+{
+    padding: 13px; 
+    background-color: blue; 
+    border-radius: 8px;
+    font-size: 15px; 
+    color: white; 
+    border: transparent;
+    width: 418px; 
+    height: 50px;
+    font-weight: bold;
+    position: relative;
+    left: 230px;
+    top: 3px;
+    font-family: 'Archivo', sans-serif;
+}
+
+#cadastroCurso:hover
+{
+    background-color: white; 
+    border: 4px solid blue; 
+    border-radius:8px ;
+    color: blue;
+    font-weight: bold;
+    font-family: 'Archivo', sans-serif;
+
+}
+
+#divBusca
+{
+    background-color:#ffffff;
+    border: rgb(180, 180, 180) solid 3px;
+    border-radius:15px;
+    width:200px;
+    height: 30px;
+    position: relative;
+    top: 60px;
+    left: 50px;
+    box-shadow: 3px 2px 2px 2.5px rgb(202, 202, 202);
+  }
+
+#divBusca:hover
+{
+    background-color: rgb(214, 214, 214);
+}
+  
+#txtBusca
+{
+    float:left;
+    background-color:transparent;
+    padding-left:5px;
+    font-style:italic;
+    font-size:16px;
+    border:none;
+    height:32px;
+    width:160px;
+    font-family: 'Archivo', sans-serif;
+
+}
+
+#btnBusca
+{
+    height:18px;
+    width: 10;
+    margin: auto;
+    position: relative;
+    top: 5px;
+}
+
+#cadastrar
+{
+    font-weight: bold;
+}
+#tabela 
+{
+    font-family:'Archivo', sans-serif;
+    width: 60%; 
+    height: 40%;
+    border-collapse: collapse; 
+    border: 1px solid rgb(17, 17, 17);
+    border-radius: 20px;
+    position: relative;
+    top: 70px;
+    left: 50px;
+}
+
+#inputduracao
+{
+    background-color: rgb(121, 144, 179);
+    font-family:'Archivo', sans-serif;
+    font-weight: bold;
+    font-size: 20;
+    color: white;    
+}
+
+
+td, th {
+    
+    padding: 8px; /*espaçamento interno */
+    
+    }
+    
+th{
+    background-color: rgb(121, 144, 179);
+    color: white; 
+    }
+tr:hover { /* quando passar o mouse em cima da linha */
+    background-color: rgb(114, 15, 15);
+}
+#txtcurso {
+    font-family: 'Nanum Pen Script', cursive;
+    text-align: center;
+    position: relative;
+    left:-300px;
+    bottom: -45px;
+    font-size: 32px;
+}
+#conteudo {
+    width: 800px;
+    margin: 50px auto;
+    border-radius: 20px; 
+    border: 12px inset #30445e; 
+}
+#prim
+{
+    background-color: rgb(199, 199, 199);
+}
+#sec
+{
+    background-color: white;
+}
+#terc
+{
+    background-color: rgb(199, 199, 199);
+}
+#idduracao
+{
+  color: white;  
+}
+#name1 
+{
+    margin: 163px -250px auto;
+    position: relative;
+    left: -89.9px;
+    font-size: 120%;
+    text-shadow: 0.1em 0.1em 0.1em rgb(209, 242, 248);
+    font-family: 'Bebas Neue', cursive;
+}
+#name2
+{
+    margin: 35px auto;
+    position: relative;
+    left: -57px;    
+    font-size: 120%;
+    text-shadow: 0.1em 0.1em 0.1em rgb(209, 242, 248);
+}
+#name3
+{
+    font-size: 120%;
+    margin: 10px 120px auto;
+    position: relative;
+    left: -64.5px;
+    top: -3.5px;
+    text-shadow: 0.1em 0.1em 0.1em rgb(209, 242, 248);
+}
+#name4
+{
+    margin: 300x 216px auto;
+    position: relative;
+    left: -33px;
+    font-size: 120%;
+    top: 6px;
+    text-shadow: 0.1em 0.1em 0.1em rgb(209, 242, 248);
+} 

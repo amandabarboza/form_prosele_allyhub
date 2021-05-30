@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Cadastro de Cursos</title>
+    <script type="text/javascript" src="form.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:ital,wght@1,200&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@300&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <img src="img/logo_ally.png" alt="some text" width=300 height=75 id="logo_ally">
+
+    <div class="cadastrocursos"><h1>Cadastro de Cursos</h1></div>
+
+    <div class="conteudo">
+
+        <form name="fcadastro">
+            <div id="nome">
+
+                <h2 id="nomecurso" class="nome">Nome</h2>
+                <input class="nome1" type="text" name="primeiro_nome" data-required data-min-length="3" data-max-length="16">
+                <label class="primeirolabel">Curso</label>
+
+            </div>
+
+            <div id="data">
+
+                <h2 class="nome">Data</h2>
+                <input class="datainicio" type="date"
+                name="data_inicio" data-required data-only-numbers>
+                <label class="iniciolabel">Início</label>
+                <input class="datatermino" type="date" name="data_termino" data-required data-only-numbers>
+                <label class="terminolabel">Término</label>
+                </div>
+
+            <h2 class="nome">Duração (semanas)</h2>
+            <input class="duracao" type="number" name="duracao" data-required data-only-numbers>
+
+            <h2 class="nome">Descrição</h2>
+            <textarea class="descricao" name="descricao"></textarea>
+            <!--<p> **Consulte a tabela abaixo antes de concluir o cadastro</p>-->
+            <!--<button type="button" onClick="cadastroCurso()"> Cadastrar </button>-->
+            <input id="cadastroCurso" type="submit" value="Cadastrar">
+            <div id="curso">
+                <div id="divBusca">
+                    <img src="img/lupa_2.png" id="btnBusca" alt="Buscar"/>
+                    <input type="text" id="txtBusca" placeholder="Buscar por nome..."/>
+                  </div>
+                <table id="tabela">
+                    <tr>
+                        <th id="name">Nome</th>
+                        <th id="idduracao"> <input id="inputduracao" type="number" placeholder="Duração"></th>
+                        <th>Data de Início</th>
+                        <th>Data de término</th>
+                    </tr>
+                    <tr id="prim">
+                        <td>Primeiro curso</td>
+                        <td>52</td>
+                        <td>01/01/2021</td>
+                        <td>31/12/2021</td>
+                    </tr>
+                    <tr id="sec">
+                        <td>Segundo curso</td>
+                        <td>52</td>
+                        <td>01/01/2021</td>
+                        <td>31/12/2021</td>
+                    </tr>
+                    <tr id="terc">
+                        <td>Terceiro curso</td>
+                        <td>52</td>
+                        <td>01/01/2021</td>
+                        <td>31/12/2021</td>
+                    </tr>
+
+                </table>
+            </div>
+        </form>
+    </div>    
+</body>
+</html>
